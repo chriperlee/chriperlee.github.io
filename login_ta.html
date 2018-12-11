@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon&amp;subset=korean" rel="stylesheet">
+<meta charset='utf-8'>
+<style>
+#memu {
+			padding: 10px;
+			background-image: url('background.png'); no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;
+			text-align: center;
+			color: black;
+			font-family: 'Do Hyeon', sans-serif;
+            font-size: 20px;
+            border: solid 1px black;
+            border-radius: 10px;
+		}
+        li {
+            list-style-type: none;
+        }
+        table {
+            text-align: center;
+        }
+</style>
+</head><center>
+<body id="memu">
+<table>
+    <h1><img src="seed.png">회원 가입<img src="seed.png"></h1>
+    <tr>
+        <td>이름</td>
+        <td><input type="text" id="Name" value="이름을 입력하세요" required></td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td><input type="text" id="Id" required></li> </td>
+    </tr>
+    <tr>
+        <td>PW</td>
+        <td><input type="password" id="Pw" required></td>
+    </tr>
+    <tr>
+        <td>PW 확인</td>
+        <td><input type="password" id="PwCheck" required></li></td>
+    </tr>
+    <tr>
+        <td>이메일</td>
+        <td><input type="email" name="Email"></td>
+    </tr>
+    <tr>
+        <td colspan="2">성별</td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="radio" name="gender" value="male" checked>남자
+            <input type="radio" name="gender" value="female">여자
+            <input type="radio" name="gender" value="other">그외</td>
+    </tr>
+    <tr>
+        <td>전화번호</td>
+        <td><input type="tel" name="Tel"></td>
+    </tr>
+    <tr>
+        <td>생일</td>
+        <td><input type="date" name="Bd"></td>
+    </tr>
+    <tr>
+        <td>좋아하는 색깔</td>
+        <td><input type="color" name="Color" value="#000000"></td>
+    </tr>
+    <tr>
+        <td colspan="2">관심분야</td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="checkbox" id="interest1" value="Economy">경제
+        <input type="checkbox" id="interest2" value="IT">IT
+        <input type="checkbox" id="interest3" value="Society">사회
+        <input type="checkbox" id="interest4" value="Science">과학
+        <input type="checkbox" id="interest5" value="Music">음악
+        <input type="checkbox" id="interest6" value="Art">미술</td>
+    </tr>
+    <tr>
+        <td colspan="2"><button type="submit"><img src="yes.png"></button>
+        <button type="submit"><img src="no.png"></button></td>
+    </tr>
+</table><br />
+<a href="index.html"><img src="home.png"></a>
+<p>
+</body>
+</center>
+</html>
